@@ -1,0 +1,62 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  &__logo {
+    cursor: pointer;
+  }
+
+  &__list {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    transition: .2s ease 0s;
+
+    &:hover {
+      color: #FFA542;
+    }
+  }
+
+  &__social {
+    display: flex;
+     height: 30px;
+     align-items: center;
+  }
+
+  &__smedia {
+    padding-left: 18px;
+    transition: .2s ease 0s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.terms {
+  &__title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000;
+    margin-bottom: 37px;
+  }
+
+  &__box {
+    display: flex;
+  }
+
+  &__lang {
+    display: flex;
+  }
+
+  &__lg {
+    padding-left: 15px;
+    transition: .2s ease 0s;
+    cursor: pointer;
+    &:hover {
+      color: #FFA542;
+    }
+  } 
+}

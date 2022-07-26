@@ -1,0 +1,13 @@
+.plus {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  
+  transition: .2s ease 0s;
+  &:hover {
+    color:  #FFCE7F;
+    
+  }
+}

@@ -1,0 +1,35 @@
+.cart {
+  position: relative;
+}
+
+.count {
+  position: absolute;
+  top: -4px;
+  left: 15px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background-color: #ffa542;
+  color: #fff;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

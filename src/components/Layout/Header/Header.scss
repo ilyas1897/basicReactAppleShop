@@ -1,0 +1,60 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 20px 20px 20px 0;
+  z-index: 9;
+   background: #eaeaea;
+  
+  &__logo {
+    display: flex;
+    align-items: center;
+   
+  }
+
+  &__left {
+     margin-left: 75px;
+     position: relative;
+     &::before{
+      content:'';
+      position: absolute;
+      top: -2px;
+      left: -20px;
+      width: 15px;
+      height: 20px;
+      background-image: url('../../../assets/icons/phone.svg');
+     }
+  }
+
+  &__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 105px;
+    width: 100%;
+  }
+  
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__mark {
+    margin-right: 35px;
+    cursor: pointer;
+  }
+
+  &__cart {
+    cursor: pointer;
+  }
+}
+
+
+

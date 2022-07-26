@@ -1,0 +1,25 @@
+.banner {
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #101010;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-top: 80px;
+  margin-bottom: 45px;
+  
+  &__text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    padding-right: 180px;
+  }
+
+  &__image {
+        width: 290px;
+    height: 223px;
+    object-fit: cover;
+  }
+}
